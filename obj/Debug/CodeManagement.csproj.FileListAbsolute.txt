@@ -1,0 +1,129 @@
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\bin\Debug\CodeManagement.exe.config
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\bin\Debug\CodeManagement.exe
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\bin\Debug\CodeManagement.pdb
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\obj\Debug\CodeManagement.csprojAssemblyReference.cache
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\obj\Debug\CodeManagement.Form1.resources
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\obj\Debug\CodeManagement.Properties.Resources.resources
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\obj\Debug\CodeManagement.csproj.GenerateResource.cache
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\obj\Debug\CodeManagement.csproj.CoreCompileInputs.cache
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\obj\Debug\CodeManagement.exe
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\obj\Debug\CodeManagement.pdb
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\obj\Debug\CodeManagement.csproj.CopyComplete
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\obj\Debug\CodeManagement.PathSetting.resources
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\bin\Debug\CodeManagement.exe.config
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\bin\Debug\CodeManagement.exe
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\bin\Debug\CodeManagement.pdb
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.csprojAssemblyReference.cache
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.Form1.resources
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.PathSetting.resources
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.Properties.Resources.resources
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.csproj.GenerateResource.cache
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.csproj.CoreCompileInputs.cache
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.csproj.CopyComplete
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.exe
+D:\zoom\2021-04-20 09.58.01 WinForm 3일차 82004565619\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.pdb
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\bin\Debug\CodeManagement.exe.config
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\bin\Debug\CodeManagement.exe
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\bin\Debug\CodeManagement.pdb
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.csprojAssemblyReference.cache
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.Form1.resources
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.PathSetting.resources
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.Properties.Resources.resources
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.csproj.GenerateResource.cache
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.csproj.CoreCompileInputs.cache
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.csproj.CopyComplete
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.exe
+D:\zoom\2021-04-21 19.08.54 WinForm 4일차(실습) 84181598145\소스코드관리프로그램\CodeManagement_1\obj\Debug\CodeManagement.pdb
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\bin\Debug\CodeManagement.exe.config
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\bin\Debug\CodeManagement.exe
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\bin\Debug\CodeManagement.pdb
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.csprojAssemblyReference.cache
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.Form1.resources
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.PathSetting.resources
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.Properties.Resources.resources
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.csproj.GenerateResource.cache
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.csproj.CoreCompileInputs.cache
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.csproj.CopyComplete
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.exe
+D:\zoom\2021-04-22 09.31.46 WinForm 5일차 81197176522\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.pdb
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\bin\Debug\CodeManagement.exe.config
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\bin\Debug\CodeManagement.exe
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\bin\Debug\CodeManagement.pdb
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.csprojAssemblyReference.cache
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.Form1.resources
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.PathSetting.resources
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.Properties.Resources.resources
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.csproj.GenerateResource.cache
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.csproj.CoreCompileInputs.cache
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.csproj.CopyComplete
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.exe
+D:\zoom\MFC 4일차\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.pdb
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.csprojAssemblyReference.cache
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.Form1.resources
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.PathSetting.resources
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.Properties.Resources.resources
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.csproj.GenerateResource.cache
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.csproj.CoreCompileInputs.cache
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.exe
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.pdb
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\bin\Debug\CodeManagement.exe.config
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\bin\Debug\CodeManagement.exe
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\bin\Debug\CodeManagement.pdb
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\zoom\2021-05-03 14.06.53 C# 프로젝트1일차 85317207840\소스코드관리프로그램\CodeManagement_2\obj\Debug\CodeManagement.csproj.CopyComplete
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\bin\Debug\CodeManagement.exe.config
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\bin\Debug\CodeManagement.exe
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\bin\Debug\CodeManagement.pdb
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\obj\Debug\CodeManagement.csprojAssemblyReference.cache
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\obj\Debug\CodeManagement.Form1.resources
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\obj\Debug\CodeManagement.PathSetting.resources
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\obj\Debug\CodeManagement.Properties.Resources.resources
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\obj\Debug\CodeManagement.csproj.GenerateResource.cache
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\obj\Debug\CodeManagement.csproj.CoreCompileInputs.cache
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\obj\Debug\CodeManagement.csproj.CopyComplete
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\obj\Debug\CodeManagement.exe
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\obj\Debug\CodeManagement.pdb
+D:\zoom\2021-05-04 14.06.53 C# 프로젝트2일차 85317207840\소스코드관리프로그램\CodeManagement_3\obj\Debug\CodeManagement.ColorSetting.resources
+C:\Users\h0104\Desktop\CodeManagement\bin\Debug\CodeManagement.exe.config
+C:\Users\h0104\Desktop\CodeManagement\bin\Debug\CodeManagement.exe
+C:\Users\h0104\Desktop\CodeManagement\bin\Debug\CodeManagement.pdb
+C:\Users\h0104\Desktop\CodeManagement\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\h0104\Desktop\CodeManagement\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\h0104\Desktop\CodeManagement\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\h0104\Desktop\CodeManagement\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\h0104\Desktop\CodeManagement\obj\Debug\CodeManagement.csproj.AssemblyReference.cache
+C:\Users\h0104\Desktop\CodeManagement\obj\Debug\CodeManagement.ColorSetting.resources
+C:\Users\h0104\Desktop\CodeManagement\obj\Debug\CodeManagement.Form1.resources
+C:\Users\h0104\Desktop\CodeManagement\obj\Debug\CodeManagement.PathSetting.resources
+C:\Users\h0104\Desktop\CodeManagement\obj\Debug\CodeManagement.Properties.Resources.resources
+C:\Users\h0104\Desktop\CodeManagement\obj\Debug\CodeManagement.csproj.GenerateResource.cache
+C:\Users\h0104\Desktop\CodeManagement\obj\Debug\CodeManagement.csproj.CoreCompileInputs.cache
+C:\Users\h0104\Desktop\CodeManagement\obj\Debug\CodeManagement.exe
+C:\Users\h0104\Desktop\CodeManagement\obj\Debug\CodeManagement.pdb
