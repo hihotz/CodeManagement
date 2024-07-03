@@ -12,7 +12,7 @@ namespace CodeManagement
 {
     public partial class ColorSetting : Form
     {
-        public event EventHandler ClosecolorSetting = null;
+        public event EventHandler CloseColorSetting = null;
 
         public static string character;
         public static Color color = Color.Gray;
@@ -25,32 +25,15 @@ namespace CodeManagement
         public static string strTargetGreen = @"Green";
         public static string strTargetRed = @"Red";
 
-
         public ColorSetting()
         {
             InitializeComponent();
-
+            this.FormClosing += new FormClosingEventHandler(ColorSetting_FormClosing);
             comboBox2.SelectedIndex = 0;
         }
 
-        #region 확인 및 취소
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            if (ClosecolorSetting != null)
-                ClosecolorSetting(this, new EventArgs());
-            this.Close();
-        }
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-            if (ClosecolorSetting != null)
-                ClosecolorSetting(this, new EventArgs());
-            this.Close();
-        } 
-        #endregion
-
         #region 검색
         //단어 검색
-
         private void button3_Click_1(object sender, EventArgs e)
         {
             if (strTargetGray.Contains("|" + textBox1.Text))
@@ -166,9 +149,44 @@ namespace CodeManagement
         }
 
 
-		#endregion
+        #endregion
 
-		
-	}
+        #region 창 닫힘
+        // 확인
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Close_ColorSetting();
+        }
+
+        // 취소
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Close_ColorSetting();
+        }
+
+        private void ColorSetting_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // 확인 메시지 박스를 표시합니다.
+            DialogResult result = MessageBox.Show("정말로 닫으시겠습니까?", "확인", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            // 사용자가 'No'를 선택하면 닫히지 않도록 합니다.
+            if (result == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+            if (result == DialogResult.Yes)
+            {
+                Close_ColorSetting();
+            }
+        }
+
+        private void Close_ColorSetting()
+        {
+            if (CloseColorSetting != null)
+                CloseColorSetting(this, new EventArgs());
+            this.Close();
+        }
+        #endregion
+    }
 
 }

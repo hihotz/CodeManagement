@@ -107,7 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Picture\home_sOR_icon.ico" />
-    <Content Include="TxtFile\Path.txt" />
+    <Content Include="textFile\Path.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

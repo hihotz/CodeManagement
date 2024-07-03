@@ -9,7 +9,7 @@ namespace CodeManagement
     public partial class PathSetting : Form
     {
         public event EventHandler Changed = null;
-        public event EventHandler ClosepathSetting = null;
+        public event EventHandler ClosePathSetting = null;
 
 
         public string RootPath
@@ -30,21 +30,7 @@ namespace CodeManagement
             comboBox1.SelectedIndex = 0;
         }
 
-        private void PathSetting_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            // 확인 메시지 박스를 표시합니다.
-            DialogResult result = MessageBox.Show("정말로 닫으시겠습니까?", "확인", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            // 사용자가 'No'를 선택하면 닫히지 않도록 합니다.
-            if (result == DialogResult.No)
-            {
-                e.Cancel = true;
-            }
-            if (result == DialogResult.Yes)
-            {
-                Close_PathSetting();
-            }
-        }
+        
 
         // Path.txt 
         private void PathSetting_Load(object sender, EventArgs e)
@@ -101,10 +87,26 @@ namespace CodeManagement
             Close_PathSetting();
         }
 
+        private void PathSetting_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // 확인 메시지 박스를 표시합니다.
+            DialogResult result = MessageBox.Show("정말로 닫으시겠습니까?", "확인", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            // 사용자가 'No'를 선택하면 닫히지 않도록 합니다.
+            if (result == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+            if (result == DialogResult.Yes)
+            {
+                Close_PathSetting();
+            }
+        }
+
         private void Close_PathSetting()
         {
-            if (ClosepathSetting != null)
-                ClosepathSetting(this, new EventArgs());
+            if (ClosePathSetting != null)
+                ClosePathSetting(this, new EventArgs());
             this.Close();
         }
         #endregion

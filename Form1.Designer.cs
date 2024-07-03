@@ -153,9 +153,10 @@ namespace CodeManagement
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.환경설정ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.menuStrip1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1240, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1417, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -165,20 +166,20 @@ namespace CodeManagement
             this.settingPathToolStripMenuItem,
             this.colorToolStripMenuItem});
             this.환경설정ToolStripMenuItem.Name = "환경설정ToolStripMenuItem";
-            this.환경설정ToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.환경설정ToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
             this.환경설정ToolStripMenuItem.Text = "환경설정";
             // 
             // settingPathToolStripMenuItem
             // 
             this.settingPathToolStripMenuItem.Name = "settingPathToolStripMenuItem";
-            this.settingPathToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
+            this.settingPathToolStripMenuItem.Size = new System.Drawing.Size(126, 26);
             this.settingPathToolStripMenuItem.Text = "Path";
             this.settingPathToolStripMenuItem.Click += new System.EventHandler(this.settingPathToolStripMenuItem_Click);
             // 
             // colorToolStripMenuItem
             // 
             this.colorToolStripMenuItem.Name = "colorToolStripMenuItem";
-            this.colorToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
+            this.colorToolStripMenuItem.Size = new System.Drawing.Size(126, 26);
             this.colorToolStripMenuItem.Text = "color";
             this.colorToolStripMenuItem.Click += new System.EventHandler(this.colorToolStripMenuItem_Click_1);
             // 
@@ -186,7 +187,7 @@ namespace CodeManagement
             // 
             this.txtbRootSourec.Location = new System.Drawing.Point(242, 48);
             this.txtbRootSourec.Name = "txtbRootSourec";
-            this.txtbRootSourec.Size = new System.Drawing.Size(170, 21);
+            this.txtbRootSourec.Size = new System.Drawing.Size(170, 25);
             this.txtbRootSourec.TabIndex = 8;
             // 
             // btnRootInsert
@@ -237,8 +238,9 @@ namespace CodeManagement
             // 
             this.btnSave.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnSave.Location = new System.Drawing.Point(0, 0);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(70, 25);
+            this.btnSave.Size = new System.Drawing.Size(80, 31);
             this.btnSave.TabIndex = 0;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -250,7 +252,7 @@ namespace CodeManagement
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 25);
+            this.label2.Size = new System.Drawing.Size(67, 31);
             this.label2.TabIndex = 3;
             this.label2.Text = "Root Path";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -259,9 +261,10 @@ namespace CodeManagement
             // 
             this.btnTreeviewExtend.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnTreeviewExtend.Location = new System.Drawing.Point(0, 0);
+            this.btnTreeviewExtend.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnTreeviewExtend.Name = "btnTreeviewExtend";
-            this.btnTreeviewExtend.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
-            this.btnTreeviewExtend.Size = new System.Drawing.Size(105, 25);
+            this.btnTreeviewExtend.Padding = new System.Windows.Forms.Padding(0, 0, 6, 0);
+            this.btnTreeviewExtend.Size = new System.Drawing.Size(120, 31);
             this.btnTreeviewExtend.TabIndex = 1;
             this.btnTreeviewExtend.Text = "Extend";
             this.btnTreeviewExtend.UseVisualStyleBackColor = true;
@@ -272,20 +275,20 @@ namespace CodeManagement
             this.textbRootPath.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textbRootPath.Font = new System.Drawing.Font("굴림", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textbRootPath.Location = new System.Drawing.Point(0, 0);
-            this.textbRootPath.Margin = new System.Windows.Forms.Padding(5, 3, 3, 3);
+            this.textbRootPath.Margin = new System.Windows.Forms.Padding(6, 4, 3, 4);
             this.textbRootPath.Name = "textbRootPath";
             this.textbRootPath.ReadOnly = true;
             this.textbRootPath.ShortcutsEnabled = false;
-            this.textbRootPath.Size = new System.Drawing.Size(0, 25);
+            this.textbRootPath.Size = new System.Drawing.Size(0, 29);
             this.textbRootPath.TabIndex = 2;
             // 
             // btnTreeviewCollapse
             // 
             this.btnTreeviewCollapse.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnTreeviewCollapse.Location = new System.Drawing.Point(0, 0);
-            this.btnTreeviewCollapse.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
+            this.btnTreeviewCollapse.Margin = new System.Windows.Forms.Padding(3, 4, 3, 0);
             this.btnTreeviewCollapse.Name = "btnTreeviewCollapse";
-            this.btnTreeviewCollapse.Size = new System.Drawing.Size(100, 25);
+            this.btnTreeviewCollapse.Size = new System.Drawing.Size(114, 31);
             this.btnTreeviewCollapse.TabIndex = 1;
             this.btnTreeviewCollapse.Text = "Collapse";
             this.btnTreeviewCollapse.UseVisualStyleBackColor = true;
@@ -295,6 +298,7 @@ namespace CodeManagement
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -304,14 +308,16 @@ namespace CodeManagement
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(1240, 556);
-            this.splitContainer1.SplitterDistance = 263;
+            this.splitContainer1.Size = new System.Drawing.Size(1417, 696);
+            this.splitContainer1.SplitterDistance = 300;
+            this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 2;
             // 
             // splitContainer4
             // 
             this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer4.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.splitContainer4.Name = "splitContainer4";
             this.splitContainer4.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -324,8 +330,9 @@ namespace CodeManagement
             // 
             this.splitContainer4.Panel2.Controls.Add(this.panel2);
             this.splitContainer4.Panel2.Controls.Add(this.panel4);
-            this.splitContainer4.Size = new System.Drawing.Size(263, 556);
-            this.splitContainer4.SplitterDistance = 473;
+            this.splitContainer4.Size = new System.Drawing.Size(300, 696);
+            this.splitContainer4.SplitterDistance = 592;
+            this.splitContainer4.SplitterWidth = 5;
             this.splitContainer4.TabIndex = 0;
             // 
             // panel26
@@ -333,9 +340,9 @@ namespace CodeManagement
             this.panel26.Controls.Add(this.treeView2);
             this.panel26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel26.Location = new System.Drawing.Point(0, 0);
-            this.panel26.Margin = new System.Windows.Forms.Padding(3, 3, 3, 10);
+            this.panel26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 12);
             this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(263, 448);
+            this.panel26.Size = new System.Drawing.Size(300, 561);
             this.panel26.TabIndex = 1;
             // 
             // treeView2
@@ -344,9 +351,9 @@ namespace CodeManagement
             this.treeView2.CheckBoxes = true;
             this.treeView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeView2.Location = new System.Drawing.Point(0, 0);
-            this.treeView2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 10);
+            this.treeView2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 12);
             this.treeView2.Name = "treeView2";
-            this.treeView2.Size = new System.Drawing.Size(263, 448);
+            this.treeView2.Size = new System.Drawing.Size(300, 561);
             this.treeView2.TabIndex = 0;
             this.treeView2.BeforeSelect += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeView2_BeforeSelect);
             this.treeView2.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView2_AfterSelect);
@@ -359,18 +366,20 @@ namespace CodeManagement
             this.panel6.Controls.Add(this.panel14);
             this.panel6.Controls.Add(this.panel13);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(0, 448);
+            this.panel6.Location = new System.Drawing.Point(0, 561);
+            this.panel6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(263, 25);
+            this.panel6.Size = new System.Drawing.Size(300, 31);
             this.panel6.TabIndex = 0;
             // 
             // panel17
             // 
             this.panel17.Controls.Add(this.textbRootPath);
             this.panel17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel17.Location = new System.Drawing.Point(59, 0);
+            this.panel17.Location = new System.Drawing.Point(67, 0);
+            this.panel17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(0, 25);
+            this.panel17.Size = new System.Drawing.Size(0, 31);
             this.panel17.TabIndex = 3;
             // 
             // panel15
@@ -378,35 +387,39 @@ namespace CodeManagement
             this.panel15.Controls.Add(this.label2);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel15.Location = new System.Drawing.Point(0, 0);
+            this.panel15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(59, 25);
+            this.panel15.Size = new System.Drawing.Size(67, 31);
             this.panel15.TabIndex = 2;
             // 
             // panel14
             // 
             this.panel14.Controls.Add(this.btnTreeviewExtend);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel14.Location = new System.Drawing.Point(58, 0);
+            this.panel14.Location = new System.Drawing.Point(66, 0);
+            this.panel14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(105, 25);
+            this.panel14.Size = new System.Drawing.Size(120, 31);
             this.panel14.TabIndex = 1;
             // 
             // panel13
             // 
             this.panel13.Controls.Add(this.btnTreeviewCollapse);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel13.Location = new System.Drawing.Point(163, 0);
+            this.panel13.Location = new System.Drawing.Point(186, 0);
+            this.panel13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(100, 25);
+            this.panel13.Size = new System.Drawing.Size(114, 31);
             this.panel13.TabIndex = 0;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.TreeViewPath);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(45, 0);
+            this.panel2.Location = new System.Drawing.Point(51, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(218, 79);
+            this.panel2.Size = new System.Drawing.Size(249, 99);
             this.panel2.TabIndex = 0;
             // 
             // TreeViewPath
@@ -414,11 +427,11 @@ namespace CodeManagement
             this.TreeViewPath.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TreeViewPath.FormattingEnabled = true;
             this.TreeViewPath.HorizontalScrollbar = true;
-            this.TreeViewPath.ItemHeight = 12;
+            this.TreeViewPath.ItemHeight = 15;
             this.TreeViewPath.Location = new System.Drawing.Point(0, 0);
             this.TreeViewPath.Margin = new System.Windows.Forms.Padding(0);
             this.TreeViewPath.Name = "TreeViewPath";
-            this.TreeViewPath.Size = new System.Drawing.Size(218, 79);
+            this.TreeViewPath.Size = new System.Drawing.Size(249, 99);
             this.TreeViewPath.TabIndex = 0;
             // 
             // panel4
@@ -426,8 +439,9 @@ namespace CodeManagement
             this.panel4.Controls.Add(this.btnPath);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(45, 79);
+            this.panel4.Size = new System.Drawing.Size(51, 99);
             this.panel4.TabIndex = 0;
             // 
             // btnPath
@@ -436,7 +450,7 @@ namespace CodeManagement
             this.btnPath.Location = new System.Drawing.Point(0, 0);
             this.btnPath.Margin = new System.Windows.Forms.Padding(0);
             this.btnPath.Name = "btnPath";
-            this.btnPath.Size = new System.Drawing.Size(45, 79);
+            this.btnPath.Size = new System.Drawing.Size(51, 99);
             this.btnPath.TabIndex = 0;
             this.btnPath.Text = "Path";
             this.btnPath.UseVisualStyleBackColor = true;
@@ -445,6 +459,7 @@ namespace CodeManagement
             // 
             this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.splitContainer2.Name = "splitContainer2";
             // 
             // splitContainer2.Panel1
@@ -454,14 +469,16 @@ namespace CodeManagement
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.tabControl1);
-            this.splitContainer2.Size = new System.Drawing.Size(973, 556);
-            this.splitContainer2.SplitterDistance = 582;
+            this.splitContainer2.Size = new System.Drawing.Size(1112, 696);
+            this.splitContainer2.SplitterDistance = 665;
+            this.splitContainer2.SplitterWidth = 5;
             this.splitContainer2.TabIndex = 0;
             // 
             // splitContainer3
             // 
             this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer3.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.splitContainer3.Name = "splitContainer3";
             this.splitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -473,8 +490,9 @@ namespace CodeManagement
             // 
             this.splitContainer3.Panel2.Controls.Add(this.listView1);
             this.splitContainer3.Panel2.Controls.Add(this.panel19);
-            this.splitContainer3.Size = new System.Drawing.Size(582, 556);
-            this.splitContainer3.SplitterDistance = 450;
+            this.splitContainer3.Size = new System.Drawing.Size(665, 696);
+            this.splitContainer3.SplitterDistance = 563;
+            this.splitContainer3.SplitterWidth = 5;
             this.splitContainer3.TabIndex = 0;
             // 
             // panel18
@@ -482,17 +500,19 @@ namespace CodeManagement
             this.panel18.Controls.Add(this.rtbCodeViewer);
             this.panel18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel18.Location = new System.Drawing.Point(0, 0);
+            this.panel18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(582, 450);
+            this.panel18.Size = new System.Drawing.Size(665, 563);
             this.panel18.TabIndex = 1;
             // 
             // rtbCodeViewer
             // 
             this.rtbCodeViewer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rtbCodeViewer.Location = new System.Drawing.Point(0, 0);
+            this.rtbCodeViewer.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rtbCodeViewer.Name = "rtbCodeViewer";
             this.rtbCodeViewer.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
-            this.rtbCodeViewer.Size = new System.Drawing.Size(582, 450);
+            this.rtbCodeViewer.Size = new System.Drawing.Size(665, 563);
             this.rtbCodeViewer.TabIndex = 1;
             this.rtbCodeViewer.Text = "";
             this.rtbCodeViewer.TextChanged += new System.EventHandler(this.rtbCodeViewer_TextChanged_1);
@@ -507,9 +527,10 @@ namespace CodeManagement
             this.columnHeader4});
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(0, 25);
+            this.listView1.Location = new System.Drawing.Point(0, 31);
+            this.listView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(582, 77);
+            this.listView1.Size = new System.Drawing.Size(665, 97);
             this.listView1.TabIndex = 3;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -542,26 +563,28 @@ namespace CodeManagement
             this.panel19.Controls.Add(this.panel21);
             this.panel19.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel19.Location = new System.Drawing.Point(0, 0);
+            this.panel19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(582, 25);
+            this.panel19.Size = new System.Drawing.Size(665, 31);
             this.panel19.TabIndex = 0;
             // 
             // panel24
             // 
             this.panel24.Controls.Add(this.btnDelete);
             this.panel24.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel24.Location = new System.Drawing.Point(437, 0);
+            this.panel24.Location = new System.Drawing.Point(499, 0);
+            this.panel24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(75, 25);
+            this.panel24.Size = new System.Drawing.Size(86, 31);
             this.panel24.TabIndex = 1;
             // 
             // btnDelete
             // 
             this.btnDelete.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnDelete.Location = new System.Drawing.Point(0, 0);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 3, 5, 3);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 6, 4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 25);
+            this.btnDelete.Size = new System.Drawing.Size(86, 31);
             this.btnDelete.TabIndex = 7;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -571,25 +594,28 @@ namespace CodeManagement
             // 
             this.panel23.Controls.Add(this.btnSave);
             this.panel23.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel23.Location = new System.Drawing.Point(512, 0);
+            this.panel23.Location = new System.Drawing.Point(585, 0);
+            this.panel23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(70, 25);
+            this.panel23.Size = new System.Drawing.Size(80, 31);
             this.panel23.TabIndex = 1;
             // 
             // panel22
             // 
             this.panel22.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel22.Location = new System.Drawing.Point(200, 0);
+            this.panel22.Location = new System.Drawing.Point(229, 0);
+            this.panel22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(70, 25);
+            this.panel22.Size = new System.Drawing.Size(80, 31);
             this.panel22.TabIndex = 2;
             // 
             // panel21
             // 
             this.panel21.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel21.Location = new System.Drawing.Point(0, 0);
+            this.panel21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(200, 25);
+            this.panel21.Size = new System.Drawing.Size(229, 31);
             this.panel21.TabIndex = 1;
             // 
             // tabControl1
@@ -598,19 +624,21 @@ namespace CodeManagement
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(387, 556);
+            this.tabControl1.Size = new System.Drawing.Size(442, 696);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.wbMain);
             this.tabPage1.Controls.Add(this.panel3);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage1.Size = new System.Drawing.Size(379, 530);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage1.Size = new System.Drawing.Size(434, 667);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "URL";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -618,10 +646,11 @@ namespace CodeManagement
             // wbMain
             // 
             this.wbMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.wbMain.Location = new System.Drawing.Point(3, 25);
-            this.wbMain.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbMain.Location = new System.Drawing.Point(3, 32);
+            this.wbMain.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.wbMain.MinimumSize = new System.Drawing.Size(23, 25);
             this.wbMain.Name = "wbMain";
-            this.wbMain.Size = new System.Drawing.Size(373, 502);
+            this.wbMain.Size = new System.Drawing.Size(428, 631);
             this.wbMain.TabIndex = 3;
             this.wbMain.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.wbMain_Navigated_1);
             // 
@@ -634,18 +663,20 @@ namespace CodeManagement
             this.panel3.Controls.Add(this.panel7);
             this.panel3.Controls.Add(this.panel5);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(3, 3);
+            this.panel3.Location = new System.Drawing.Point(3, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(373, 22);
+            this.panel3.Size = new System.Drawing.Size(428, 28);
             this.panel3.TabIndex = 0;
             // 
             // panel25
             // 
             this.panel25.Controls.Add(this.combUrl);
             this.panel25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel25.Location = new System.Drawing.Point(125, 0);
+            this.panel25.Location = new System.Drawing.Point(142, 0);
+            this.panel25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(108, 22);
+            this.panel25.Size = new System.Drawing.Size(126, 28);
             this.panel25.TabIndex = 4;
             // 
             // combUrl
@@ -653,25 +684,28 @@ namespace CodeManagement
             this.combUrl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.combUrl.FormattingEnabled = true;
             this.combUrl.Location = new System.Drawing.Point(0, 0);
+            this.combUrl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.combUrl.Name = "combUrl";
-            this.combUrl.Size = new System.Drawing.Size(108, 20);
+            this.combUrl.Size = new System.Drawing.Size(126, 23);
             this.combUrl.TabIndex = 0;
             // 
             // panel10
             // 
             this.panel10.Controls.Add(this.btnForward);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel10.Location = new System.Drawing.Point(80, 0);
+            this.panel10.Location = new System.Drawing.Point(91, 0);
+            this.panel10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(45, 22);
+            this.panel10.Size = new System.Drawing.Size(51, 28);
             this.panel10.TabIndex = 3;
             // 
             // btnForward
             // 
             this.btnForward.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnForward.Location = new System.Drawing.Point(0, 0);
+            this.btnForward.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnForward.Name = "btnForward";
-            this.btnForward.Size = new System.Drawing.Size(45, 22);
+            this.btnForward.Size = new System.Drawing.Size(51, 28);
             this.btnForward.TabIndex = 5;
             this.btnForward.Text = ">";
             this.btnForward.UseVisualStyleBackColor = true;
@@ -681,9 +715,10 @@ namespace CodeManagement
             // 
             this.panel9.Controls.Add(this.btnBefore);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel9.Location = new System.Drawing.Point(35, 0);
+            this.panel9.Location = new System.Drawing.Point(40, 0);
+            this.panel9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(45, 22);
+            this.panel9.Size = new System.Drawing.Size(51, 28);
             this.panel9.TabIndex = 0;
             // 
             // btnBefore
@@ -691,8 +726,9 @@ namespace CodeManagement
             this.btnBefore.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnBefore.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnBefore.Location = new System.Drawing.Point(0, 0);
+            this.btnBefore.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnBefore.Name = "btnBefore";
-            this.btnBefore.Size = new System.Drawing.Size(45, 22);
+            this.btnBefore.Size = new System.Drawing.Size(51, 28);
             this.btnBefore.TabIndex = 4;
             this.btnBefore.Text = "<";
             this.btnBefore.UseVisualStyleBackColor = true;
@@ -703,8 +739,9 @@ namespace CodeManagement
             this.panel8.Controls.Add(this.btnUrlHome);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel8.Location = new System.Drawing.Point(0, 0);
+            this.panel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(35, 22);
+            this.panel8.Size = new System.Drawing.Size(40, 28);
             this.panel8.TabIndex = 1;
             // 
             // btnUrlHome
@@ -713,8 +750,9 @@ namespace CodeManagement
             this.btnUrlHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnUrlHome.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnUrlHome.Location = new System.Drawing.Point(0, 0);
+            this.btnUrlHome.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnUrlHome.Name = "btnUrlHome";
-            this.btnUrlHome.Size = new System.Drawing.Size(35, 22);
+            this.btnUrlHome.Size = new System.Drawing.Size(40, 28);
             this.btnUrlHome.TabIndex = 4;
             this.btnUrlHome.UseVisualStyleBackColor = true;
             this.btnUrlHome.Click += new System.EventHandler(this.btnUrlHome_Click_1);
@@ -723,18 +761,19 @@ namespace CodeManagement
             // 
             this.panel7.Controls.Add(this.button8);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel7.Location = new System.Drawing.Point(233, 0);
-            this.panel7.Margin = new System.Windows.Forms.Padding(3, 3, 3, 5);
+            this.panel7.Location = new System.Drawing.Point(268, 0);
+            this.panel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 6);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(70, 22);
+            this.panel7.Size = new System.Drawing.Size(80, 28);
             this.panel7.TabIndex = 2;
             // 
             // button8
             // 
             this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button8.Location = new System.Drawing.Point(0, 0);
+            this.button8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(70, 22);
+            this.button8.Size = new System.Drawing.Size(80, 28);
             this.button8.TabIndex = 1;
             this.button8.Text = "URL_ADD";
             this.button8.UseVisualStyleBackColor = true;
@@ -744,17 +783,19 @@ namespace CodeManagement
             // 
             this.panel5.Controls.Add(this.btnUrlGo);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel5.Location = new System.Drawing.Point(303, 0);
+            this.panel5.Location = new System.Drawing.Point(348, 0);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(70, 22);
+            this.panel5.Size = new System.Drawing.Size(80, 28);
             this.panel5.TabIndex = 0;
             // 
             // btnUrlGo
             // 
             this.btnUrlGo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnUrlGo.Location = new System.Drawing.Point(0, 0);
+            this.btnUrlGo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnUrlGo.Name = "btnUrlGo";
-            this.btnUrlGo.Size = new System.Drawing.Size(70, 22);
+            this.btnUrlGo.Size = new System.Drawing.Size(80, 28);
             this.btnUrlGo.TabIndex = 0;
             this.btnUrlGo.Text = "URL_Go";
             this.btnUrlGo.UseVisualStyleBackColor = true;
@@ -764,10 +805,11 @@ namespace CodeManagement
             // 
             this.tabPage2.Controls.Add(this.wbSub);
             this.tabPage2.Controls.Add(this.panel11);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage2.Size = new System.Drawing.Size(379, 530);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage2.Size = new System.Drawing.Size(434, 666);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Ref_Document";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -775,10 +817,11 @@ namespace CodeManagement
             // wbSub
             // 
             this.wbSub.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.wbSub.Location = new System.Drawing.Point(3, 26);
-            this.wbSub.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbSub.Location = new System.Drawing.Point(3, 33);
+            this.wbSub.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.wbSub.MinimumSize = new System.Drawing.Size(23, 25);
             this.wbSub.Name = "wbSub";
-            this.wbSub.Size = new System.Drawing.Size(373, 501);
+            this.wbSub.Size = new System.Drawing.Size(428, 629);
             this.wbSub.TabIndex = 1;
             // 
             // panel11
@@ -786,34 +829,38 @@ namespace CodeManagement
             this.panel11.Controls.Add(this.textBox1);
             this.panel11.Controls.Add(this.panel12);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(3, 3);
+            this.panel11.Location = new System.Drawing.Point(3, 4);
+            this.panel11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(373, 23);
+            this.panel11.Size = new System.Drawing.Size(428, 29);
             this.panel11.TabIndex = 0;
             // 
             // textBox1
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox1.Location = new System.Drawing.Point(0, 0);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(280, 21);
+            this.textBox1.Size = new System.Drawing.Size(322, 25);
             this.textBox1.TabIndex = 1;
             // 
             // panel12
             // 
             this.panel12.Controls.Add(this.FindFile);
             this.panel12.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel12.Location = new System.Drawing.Point(280, 0);
+            this.panel12.Location = new System.Drawing.Point(322, 0);
+            this.panel12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(93, 23);
+            this.panel12.Size = new System.Drawing.Size(106, 29);
             this.panel12.TabIndex = 0;
             // 
             // FindFile
             // 
             this.FindFile.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FindFile.Location = new System.Drawing.Point(0, 0);
+            this.FindFile.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.FindFile.Name = "FindFile";
-            this.FindFile.Size = new System.Drawing.Size(93, 23);
+            this.FindFile.Size = new System.Drawing.Size(106, 29);
             this.FindFile.TabIndex = 0;
             this.FindFile.Text = "Find";
             this.FindFile.UseVisualStyleBackColor = true;
@@ -827,9 +874,10 @@ namespace CodeManagement
             // 
             this.panel16.Controls.Add(this.statusStrip1);
             this.panel16.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel16.Location = new System.Drawing.Point(0, 580);
+            this.panel16.Location = new System.Drawing.Point(0, 724);
+            this.panel16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(1240, 30);
+            this.panel16.Size = new System.Drawing.Size(1417, 38);
             this.panel16.TabIndex = 3;
             // 
             // statusStrip1
@@ -841,36 +889,39 @@ namespace CodeManagement
             this.toolStripStatusLabel1});
             this.statusStrip1.Location = new System.Drawing.Point(0, 0);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1240, 30);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1417, 38);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(121, 25);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(152, 32);
             this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.splitContainer1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 24);
+            this.panel1.Location = new System.Drawing.Point(0, 28);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1240, 556);
+            this.panel1.Size = new System.Drawing.Size(1417, 696);
             this.panel1.TabIndex = 4;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1240, 610);
+            this.ClientSize = new System.Drawing.Size(1417, 762);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel16);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "소스 코드 관리 프로그램";
