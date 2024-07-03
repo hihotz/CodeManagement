@@ -11,8 +11,6 @@ namespace CodeManagement
 {
 	public partial class Form1 : Form
 	{
-		WBDataBase db = new WBDataBase();
-
 		private PathSetting pathSetting = null;
 		private string url = null;
 		string m_curPath = "";
@@ -31,17 +29,24 @@ namespace CodeManagement
 		#region Form1 로드시 
 		private void Form1_Load(object sender, EventArgs e)
 		{
-			string[] strpath = File.ReadAllLines(@"..\..\textFile\Path.txt");
-			textbRootPath.Text = strpath[0];
+			try
+			{
+                string[] strpath = File.ReadAllLines(@"..\..\textFile\Path.txt");
+                textbRootPath.Text = strpath[0];
 
-			treeView2.Nodes.Clear(); // 트리뷰 클리어
-			ListDirectory(treeView2, textbRootPath.Text);
+                treeView2.Nodes.Clear(); // 트리뷰 클리어
+                ListDirectory(treeView2, textbRootPath.Text);
 
-			//url = pathSetting.SearcherPaht;  // 초기 구글 검색으로 
-			url = "https://www.google.co.kr/";
-			wbMain.Navigate(url);
+                //url = pathSetting.SearcherPaht;  // 초기 구글 검색으로 
+                url = "https://www.google.co.kr/";
+                wbMain.Navigate(url);
 
-			this.Invalidate();
+                this.Invalidate();
+            }
+			catch (Exception)
+            {
+                MessageBox.Show("디렉토리를 설정해주세요");
+            }
 		}
 
 		#endregion
@@ -54,23 +59,28 @@ namespace CodeManagement
 			DirectoryInfo rootDirectioryInfo = new DirectoryInfo(path);  // DirectoryInfo는 말그대로 디렉토리의 정보가 들어있음, 생성,삭제등의 메소드 제공   path의 루트 디렉토리 정보를 가져옴     
 			treeView2.Nodes.Add(CreateDirectoryNode(rootDirectioryInfo));
 		}
+
 		private static TreeNode CreateDirectoryNode(DirectoryInfo directoryInfo) //CreateDirectoryNode 는 recursive method. 메소드 안에서 자신의 메소드를 호출.
 		{
 			TreeNode directoryNode = new TreeNode(directoryInfo.Name);
-
-			foreach (var directory in directoryInfo.GetDirectories())
+			try
 			{
-				directoryNode.Nodes.Add(CreateDirectoryNode(directory));
-			}
-
-			foreach (var file in directoryInfo.GetFiles())
+                foreach (var directory in directoryInfo.GetDirectories())
+                {
+                    directoryNode.Nodes.Add(CreateDirectoryNode(directory));
+                }
+                foreach (var file in directoryInfo.GetFiles())
+                {
+                    directoryNode.Nodes.Add(new TreeNode(file.Name));
+                }
+            }
+			catch (Exception)
 			{
-				directoryNode.Nodes.Add(new TreeNode(file.Name));
+				MessageBox.Show("디렉토리를 설정해주세요");
 			}
-			return directoryNode;
-		}
-
-
+            return directoryNode;
+        }
+		
 		// treeview2 폰트 굵기 및 색상 변경(선택 노드)
 		private void treeView2_AfterSelect(object sender, TreeViewEventArgs e)
 		{
@@ -574,13 +584,13 @@ namespace CodeManagement
 
 		private void rtbCodeViewer_MouseDoubleClick(object sender, MouseEventArgs e)
 		{
-			db.Open();
-			List<CODE> products = db.KeyWordToURL(rtbCodeViewer.SelectedText);
+			//db.Open();
+			//List<CODE> products = db.KeyWordToURL(rtbCodeViewer.SelectedText);
 
-			combUrl.Items.Add(products.Count.ToString());
+			//combUrl.Items.Add(products.Count.ToString());
 
 			wbMain.Navigate(combUrl.Text);
-			db.Dispose();
+			//db.Dispose();
 		}
 
 		#endregion
@@ -590,9 +600,9 @@ namespace CodeManagement
 			string keyword = rtbCodeViewer.SelectedText;
 			string url = combUrl.Text;
 
-			db.Open();
-			db.InsertCode(keyword, url);
-			db.Dispose();
+			//db.Open();
+			//db.InsertCode(keyword, url);
+			//db.Dispose();
 		}
 
 
