@@ -3,46 +3,36 @@
   "WorkspaceRootPath": "C:\\Github\\CodeManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|C:\\Github\\CodeManagement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|c:\\github\\codemanagement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|c:\\github\\codemanagement\\colorsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|solutionrelative:colorsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|c:\\github\\codemanagement\\colorsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|solutionrelative:colorsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|C:\\Github\\CodeManagement\\pathsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|c:\\github\\codemanagement\\pathsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|solutionrelative:pathsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|C:\\Github\\CodeManagement\\pathsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|c:\\github\\codemanagement\\pathsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|solutionrelative:pathsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|c:\\github\\codemanagement\\colorsetting.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|solutionrelative:colorsetting.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|c:\\github\\codemanagement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|C:\\Github\\CodeManagement\\colorsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|solutionrelative:colorsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|c:\\github\\codemanagement\\colorsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|solutionrelative:colorsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|C:\\Github\\CodeManagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|CodeManagement||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|C:\\Github\\CodeManagement\\pathsetting.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|solutionrelative:pathsetting.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|C:\\Github\\CodeManagement\\pathsetting.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|solutionrelative:pathsetting.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|c:\\github\\codemanagement\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|c:\\github\\codemanagement\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0768239A-5FFD-416F-B99D-E7A10EEE5091}|CodeManagement.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,32 +42,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PathSetting.cs",
-              "DocumentMoniker": "C:\\Github\\CodeManagement\\PathSetting.cs",
-              "RelativeDocumentMoniker": "PathSetting.cs",
-              "ToolTip": "C:\\Github\\CodeManagement\\PathSetting.cs",
-              "RelativeToolTip": "PathSetting.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "DocumentIndex": 1,
+              "Title": "ColorSetting.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Github\\CodeManagement\\ColorSetting.cs",
+              "RelativeDocumentMoniker": "ColorSetting.cs",
+              "ToolTip": "C:\\Github\\CodeManagement\\ColorSetting.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "ColorSetting.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T02:32:24.875Z",
+              "WhenOpened": "2024-07-16T01:38:15.597Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ColorSetting.Designer.cs",
+              "DocumentMoniker": "C:\\Github\\CodeManagement\\ColorSetting.Designer.cs",
+              "RelativeDocumentMoniker": "ColorSetting.Designer.cs",
+              "ToolTip": "C:\\Github\\CodeManagement\\ColorSetting.Designer.cs",
+              "RelativeToolTip": "ColorSetting.Designer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwB8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T01:36:20.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PathSetting.resx",
-              "DocumentMoniker": "C:\\Github\\CodeManagement\\PathSetting.resx",
-              "RelativeDocumentMoniker": "PathSetting.resx",
-              "ToolTip": "C:\\Github\\CodeManagement\\PathSetting.resx",
-              "RelativeToolTip": "PathSetting.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-07-03T02:32:19.639Z",
+              "DocumentIndex": 6,
+              "Title": "ColorSetting.cs",
+              "DocumentMoniker": "C:\\Github\\CodeManagement\\ColorSetting.cs",
+              "RelativeDocumentMoniker": "ColorSetting.cs",
+              "ToolTip": "C:\\Github\\CodeManagement\\ColorSetting.cs",
+              "RelativeToolTip": "ColorSetting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T01:36:05.211Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Github\\CodeManagement\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Github\\CodeManagement\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAPkCAAAAAAAAAAAuwAoDAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T01:29:23.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Github\\CodeManagement\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Github\\CodeManagement\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T01:29:22.383Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
             },
             {
               "$type": "Document",
@@ -88,7 +116,7 @@
               "ToolTip": "C:\\Github\\CodeManagement\\PathSetting.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "PathSetting.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T02:26:53.074Z",
+              "WhenOpened": "2024-07-16T01:29:20.179Z",
               "EditorCaption": " [\uB514\uC790\uC778]"
             },
             {
@@ -99,84 +127,22 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Github\\CodeManagement\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAADQAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T02:20:18.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Github\\CodeManagement\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Github\\CodeManagement\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAADAAAA",
+              "DocumentIndex": 3,
+              "Title": "PathSetting.cs",
+              "DocumentMoniker": "C:\\Github\\CodeManagement\\PathSetting.cs",
+              "RelativeDocumentMoniker": "PathSetting.cs",
+              "ToolTip": "C:\\Github\\CodeManagement\\PathSetting.cs",
+              "RelativeToolTip": "PathSetting.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T02:17:34.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ColorSetting.cs",
-              "DocumentMoniker": "C:\\Github\\CodeManagement\\ColorSetting.cs",
-              "RelativeDocumentMoniker": "ColorSetting.cs",
-              "ToolTip": "C:\\Github\\CodeManagement\\ColorSetting.cs",
-              "RelativeToolTip": "ColorSetting.cs",
-              "ViewState": "AQIAALQAAAAAAAAAAAAAAK0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T04:30:42.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ColorSetting.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Github\\CodeManagement\\ColorSetting.cs",
-              "RelativeDocumentMoniker": "ColorSetting.cs",
-              "ToolTip": "C:\\Github\\CodeManagement\\ColorSetting.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "ColorSetting.cs [\uB514\uC790\uC778]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T04:05:13.17Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Github\\CodeManagement\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Github\\CodeManagement\\Form1.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T02:19:10.128Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PathSetting.Designer.cs",
-              "DocumentMoniker": "C:\\Github\\CodeManagement\\PathSetting.Designer.cs",
-              "RelativeDocumentMoniker": "PathSetting.Designer.cs",
-              "ToolTip": "C:\\Github\\CodeManagement\\PathSetting.Designer.cs",
-              "RelativeToolTip": "PathSetting.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJEAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T02:32:19.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CodeManagement",
-              "DocumentMoniker": "C:\\Github\\CodeManagement\\CodeManagement.csproj",
-              "RelativeDocumentMoniker": "CodeManagement.csproj",
-              "ToolTip": "C:\\Github\\CodeManagement\\CodeManagement.csproj",
-              "RelativeToolTip": "CodeManagement.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-07-03T02:11:43.132Z",
+              "WhenOpened": "2024-07-16T01:01:37.895Z",
               "EditorCaption": ""
             }
           ]

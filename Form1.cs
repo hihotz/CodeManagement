@@ -11,12 +11,14 @@ namespace CodeManagement
 {
     public partial class Form1 : Form
     {
-        public event EventHandler CloseForm1 = null;
         private PathSetting pathSetting = null;
         private string url = null;
         string m_curPath = "";
         Thread m_thread = null;
-
+        private static string FullPath = null;
+        private static string OnlyFileName;
+        private static string OnlyFilePath;
+        private static string OnlyExtension;
         private ColorSetting colorSetting = null;
 
         public Form1()
@@ -54,11 +56,8 @@ namespace CodeManagement
         #region Form1 닫힘
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            // 확인 메시지 박스를 표시합니다.
-            DialogResult result = MessageBox.Show("정말로 닫으시겠습니까?", "확인", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
             // 사용자가 'No'를 선택하면 닫히지 않도록 합니다.
-            if (result == DialogResult.No)
+            if (MessageBox.Show("종료하시겠습니까?", "확인", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
             {
                 e.Cancel = true;
             }
@@ -166,29 +165,33 @@ namespace CodeManagement
         }
         #endregion
 
+        #region 파일 경로
         private string madeFolderFullPath()
         {
-            string madRootpath = textbRootPath.Text;
-            string treeviewpath = treeView2.SelectedNode.FullPath;
-            int ExtractPath = treeviewpath.IndexOf('\\');
-
-            if (ExtractPath == -1)
+            try
             {
-                return madRootpath;
+                string madRootpath = textbRootPath.Text;
+                string treeviewpath = treeView2.SelectedNode.FullPath;
+                int ExtractPath = treeviewpath.IndexOf('\\');
+
+                if (ExtractPath == -1)
+                {
+                    return madRootpath;
+                }
+                else
+                {
+                    treeviewpath = treeviewpath.Substring(ExtractPath);
+                    string FolderFileFullPath = madRootpath + treeviewpath;
+
+                    return FolderFileFullPath;
+                }
             }
-            else
+            catch (Exception ex)
             {
-                treeviewpath = treeviewpath.Substring(ExtractPath);
-                string FolderFileFullPath = madRootpath + treeviewpath;
-
-                return FolderFileFullPath;
+                MessageBox.Show(ex.Message);
+                return null;
             }
         }
-
-        private static string FullPath = null;
-        private static string OnlyFileName;
-        private static string OnlyFilePath;
-        private static string OnlyExtension;
 
         private void CutFilename(string TreeViewFullPath)
         {
@@ -203,6 +206,7 @@ namespace CodeManagement
             int CutExtension = FileFullName.IndexOf('.');               //확장자 제거
             OnlyFileName = FileFullName.Remove(CutExtension);
         }
+        #endregion
 
         #region 입력된 값 저장
 
@@ -461,12 +465,15 @@ namespace CodeManagement
         }
         #endregion
 
-        #region Delete 수정 사항 있음
+        #region Delete
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            DirectoryInfo directoryInfo = new DirectoryInfo(textbRootPath.Text).Parent;
-            removeSelectedNodes(treeView2.Nodes, directoryInfo);
-            FIleDelete();
+            if (MessageBox.Show("삭제하시겠습니까?", "확인", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                DirectoryInfo directoryInfo = new DirectoryInfo(textbRootPath.Text).Parent;
+                removeSelectedNodes(treeView2.Nodes, directoryInfo);
+                FIleDelete();
+            }
         }
         void removeSelectedNodes(TreeNodeCollection nodes, DirectoryInfo directory)
         {
@@ -497,6 +504,13 @@ namespace CodeManagement
             try
             {
                 string subPath = madeFolderFullPath();
+
+                if (subPath == null)
+                {
+                    MessageBox.Show("삭제할 파일이 없습니다.");
+                    return;
+                }
+
                 if (subPath.Contains("."))
                 {
                     File.Delete(subPath);
@@ -610,16 +624,6 @@ namespace CodeManagement
         }
 
         #endregion
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            string keyword = rtbCodeViewer.SelectedText;
-            string url = combUrl.Text;
-
-            //db.Open();
-            //db.InsertCode(keyword, url);
-            //db.Dispose();
-        }
     }
 
     #region Search

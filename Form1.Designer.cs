@@ -156,7 +156,7 @@ namespace CodeManagement
             this.menuStrip1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1417, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1417, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -308,7 +308,7 @@ namespace CodeManagement
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(1417, 696);
+            this.splitContainer1.Size = new System.Drawing.Size(1417, 694);
             this.splitContainer1.SplitterDistance = 300;
             this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 2;
@@ -330,8 +330,8 @@ namespace CodeManagement
             // 
             this.splitContainer4.Panel2.Controls.Add(this.panel2);
             this.splitContainer4.Panel2.Controls.Add(this.panel4);
-            this.splitContainer4.Size = new System.Drawing.Size(300, 696);
-            this.splitContainer4.SplitterDistance = 592;
+            this.splitContainer4.Size = new System.Drawing.Size(300, 694);
+            this.splitContainer4.SplitterDistance = 590;
             this.splitContainer4.SplitterWidth = 5;
             this.splitContainer4.TabIndex = 0;
             // 
@@ -342,7 +342,7 @@ namespace CodeManagement
             this.panel26.Location = new System.Drawing.Point(0, 0);
             this.panel26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 12);
             this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(300, 561);
+            this.panel26.Size = new System.Drawing.Size(300, 559);
             this.panel26.TabIndex = 1;
             // 
             // treeView2
@@ -353,7 +353,7 @@ namespace CodeManagement
             this.treeView2.Location = new System.Drawing.Point(0, 0);
             this.treeView2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 12);
             this.treeView2.Name = "treeView2";
-            this.treeView2.Size = new System.Drawing.Size(300, 561);
+            this.treeView2.Size = new System.Drawing.Size(300, 559);
             this.treeView2.TabIndex = 0;
             this.treeView2.BeforeSelect += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeView2_BeforeSelect);
             this.treeView2.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView2_AfterSelect);
@@ -366,7 +366,7 @@ namespace CodeManagement
             this.panel6.Controls.Add(this.panel14);
             this.panel6.Controls.Add(this.panel13);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(0, 561);
+            this.panel6.Location = new System.Drawing.Point(0, 559);
             this.panel6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(300, 31);
@@ -469,7 +469,7 @@ namespace CodeManagement
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.tabControl1);
-            this.splitContainer2.Size = new System.Drawing.Size(1112, 696);
+            this.splitContainer2.Size = new System.Drawing.Size(1112, 694);
             this.splitContainer2.SplitterDistance = 665;
             this.splitContainer2.SplitterWidth = 5;
             this.splitContainer2.TabIndex = 0;
@@ -490,8 +490,8 @@ namespace CodeManagement
             // 
             this.splitContainer3.Panel2.Controls.Add(this.listView1);
             this.splitContainer3.Panel2.Controls.Add(this.panel19);
-            this.splitContainer3.Size = new System.Drawing.Size(665, 696);
-            this.splitContainer3.SplitterDistance = 563;
+            this.splitContainer3.Size = new System.Drawing.Size(665, 694);
+            this.splitContainer3.SplitterDistance = 561;
             this.splitContainer3.SplitterWidth = 5;
             this.splitContainer3.TabIndex = 0;
             // 
@@ -502,7 +502,7 @@ namespace CodeManagement
             this.panel18.Location = new System.Drawing.Point(0, 0);
             this.panel18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(665, 563);
+            this.panel18.Size = new System.Drawing.Size(665, 561);
             this.panel18.TabIndex = 1;
             // 
             // rtbCodeViewer
@@ -512,7 +512,7 @@ namespace CodeManagement
             this.rtbCodeViewer.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rtbCodeViewer.Name = "rtbCodeViewer";
             this.rtbCodeViewer.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
-            this.rtbCodeViewer.Size = new System.Drawing.Size(665, 563);
+            this.rtbCodeViewer.Size = new System.Drawing.Size(665, 561);
             this.rtbCodeViewer.TabIndex = 1;
             this.rtbCodeViewer.Text = "";
             this.rtbCodeViewer.TextChanged += new System.EventHandler(this.rtbCodeViewer_TextChanged_1);
@@ -627,7 +627,7 @@ namespace CodeManagement
             this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(442, 696);
+            this.tabControl1.Size = new System.Drawing.Size(442, 694);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -638,7 +638,7 @@ namespace CodeManagement
             this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage1.Size = new System.Drawing.Size(434, 667);
+            this.tabPage1.Size = new System.Drawing.Size(434, 665);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "URL";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -650,7 +650,7 @@ namespace CodeManagement
             this.wbMain.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.wbMain.MinimumSize = new System.Drawing.Size(23, 25);
             this.wbMain.Name = "wbMain";
-            this.wbMain.Size = new System.Drawing.Size(428, 631);
+            this.wbMain.Size = new System.Drawing.Size(428, 629);
             this.wbMain.TabIndex = 3;
             this.wbMain.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.wbMain_Navigated_1);
             // 
@@ -777,7 +777,6 @@ namespace CodeManagement
             this.button8.TabIndex = 1;
             this.button8.Text = "URL_ADD";
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // panel5
             // 
@@ -809,7 +808,7 @@ namespace CodeManagement
             this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage2.Size = new System.Drawing.Size(434, 666);
+            this.tabPage2.Size = new System.Drawing.Size(434, 667);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Ref_Document";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -821,7 +820,7 @@ namespace CodeManagement
             this.wbSub.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.wbSub.MinimumSize = new System.Drawing.Size(23, 25);
             this.wbSub.Name = "wbSub";
-            this.wbSub.Size = new System.Drawing.Size(428, 629);
+            this.wbSub.Size = new System.Drawing.Size(428, 630);
             this.wbSub.TabIndex = 1;
             // 
             // panel11
@@ -904,10 +903,10 @@ namespace CodeManagement
             // 
             this.panel1.Controls.Add(this.splitContainer1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 28);
+            this.panel1.Location = new System.Drawing.Point(0, 30);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1417, 696);
+            this.panel1.Size = new System.Drawing.Size(1417, 694);
             this.panel1.TabIndex = 4;
             // 
             // Form1

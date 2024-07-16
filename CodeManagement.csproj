@@ -53,17 +53,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CODE.cs" />
-    <Compile Include="ColorSetting.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ColorSetting.Designer.cs">
-      <DependentUpon>ColorSetting.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColorSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorSetting.Designer.cs">
+      <DependentUpon>ColorSetting.cs</DependentUpon>
     </Compile>
     <Compile Include="PathSetting.cs">
       <SubType>Form</SubType>

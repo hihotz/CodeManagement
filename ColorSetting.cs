@@ -106,8 +106,8 @@ namespace CodeManagement
         #endregion
 
         #region 등록
-		private void button5_Click_1(object sender, EventArgs e)
-		{
+        private void button5_Click_1(object sender, EventArgs e)
+        {
             if (strTargetGray.Contains(textBox1.Text))
             {
                 MessageBox.Show(textBox1.Text + " : 해당 문자는 이미 Gray 색상에 등록되어있습니다");

@@ -42,9 +42,10 @@ namespace CodeManagement
             // 
             // btnRootPathSearch
             // 
-            this.btnRootPathSearch.Location = new System.Drawing.Point(376, 74);
+            this.btnRootPathSearch.Location = new System.Drawing.Point(396, 76);
+            this.btnRootPathSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnRootPathSearch.Name = "btnRootPathSearch";
-            this.btnRootPathSearch.Size = new System.Drawing.Size(75, 23);
+            this.btnRootPathSearch.Size = new System.Drawing.Size(86, 29);
             this.btnRootPathSearch.TabIndex = 6;
             this.btnRootPathSearch.Text = "Search";
             this.btnRootPathSearch.UseVisualStyleBackColor = true;
@@ -53,24 +54,26 @@ namespace CodeManagement
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 56);
+            this.label3.Location = new System.Drawing.Point(19, 57);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 12);
+            this.label3.Size = new System.Drawing.Size(74, 15);
             this.label3.TabIndex = 5;
             this.label3.Text = "Root Path";
             // 
             // tbRootPath
             // 
-            this.tbRootPath.Location = new System.Drawing.Point(30, 74);
+            this.tbRootPath.Location = new System.Drawing.Point(19, 76);
+            this.tbRootPath.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbRootPath.Name = "tbRootPath";
-            this.tbRootPath.Size = new System.Drawing.Size(339, 21);
+            this.tbRootPath.Size = new System.Drawing.Size(355, 25);
             this.tbRootPath.TabIndex = 4;
             // 
             // btnPathSettingCancel
             // 
-            this.btnPathSettingCancel.Location = new System.Drawing.Point(376, 391);
+            this.btnPathSettingCancel.Location = new System.Drawing.Point(416, 416);
+            this.btnPathSettingCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnPathSettingCancel.Name = "btnPathSettingCancel";
-            this.btnPathSettingCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnPathSettingCancel.Size = new System.Drawing.Size(86, 29);
             this.btnPathSettingCancel.TabIndex = 8;
             this.btnPathSettingCancel.Text = "취소";
             this.btnPathSettingCancel.UseVisualStyleBackColor = true;
@@ -80,9 +83,14 @@ namespace CodeManagement
             // 
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(13, 13);
+            this.groupBox1.Controls.Add(this.tbRootPath);
+            this.groupBox1.Controls.Add(this.btnRootPathSearch);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Location = new System.Drawing.Point(8, 13);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(451, 372);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(490, 395);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Path Setting";
@@ -93,25 +101,27 @@ namespace CodeManagement
             this.comboBox1.Items.AddRange(new object[] {
             "https://www.google.co.kr/",
             "https://www.naver.com/"});
-            this.comboBox1.Location = new System.Drawing.Point(17, 115);
+            this.comboBox1.Location = new System.Drawing.Point(19, 153);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(334, 20);
+            this.comboBox1.Size = new System.Drawing.Size(355, 23);
             this.comboBox1.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(19, 96);
+            this.label1.Location = new System.Drawing.Point(19, 134);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 12);
+            this.label1.Size = new System.Drawing.Size(74, 15);
             this.label1.TabIndex = 5;
             this.label1.Text = "Root Path";
             // 
             // btnPathSettingConfirm
             // 
-            this.btnPathSettingConfirm.Location = new System.Drawing.Point(289, 391);
+            this.btnPathSettingConfirm.Location = new System.Drawing.Point(313, 416);
+            this.btnPathSettingConfirm.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnPathSettingConfirm.Name = "btnPathSettingConfirm";
-            this.btnPathSettingConfirm.Size = new System.Drawing.Size(75, 23);
+            this.btnPathSettingConfirm.Size = new System.Drawing.Size(86, 29);
             this.btnPathSettingConfirm.TabIndex = 7;
             this.btnPathSettingConfirm.Text = "확인";
             this.btnPathSettingConfirm.UseVisualStyleBackColor = true;
@@ -119,15 +129,13 @@ namespace CodeManagement
             // 
             // PathSetting
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(476, 422);
+            this.ClientSize = new System.Drawing.Size(504, 463);
             this.Controls.Add(this.btnPathSettingCancel);
             this.Controls.Add(this.btnPathSettingConfirm);
-            this.Controls.Add(this.btnRootPathSearch);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.tbRootPath);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "PathSetting";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PathSetting";
@@ -135,7 +143,6 @@ namespace CodeManagement
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
 		}
 
