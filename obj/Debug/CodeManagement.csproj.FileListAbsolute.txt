@@ -135,6 +135,7 @@ C:\Github\CodeManagement\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
 C:\Github\CodeManagement\bin\Debug\Microsoft.WindowsAPICodePack.xml
 C:\Github\CodeManagement\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
 C:\Github\CodeManagement\obj\Debug\CodeManagement.csproj.AssemblyReference.cache
+C:\Github\CodeManagement\obj\Debug\CodeManagement.ColorSetting.resources
 C:\Github\CodeManagement\obj\Debug\CodeManagement.Form1.resources
 C:\Github\CodeManagement\obj\Debug\CodeManagement.PathSetting.resources
 C:\Github\CodeManagement\obj\Debug\CodeManagement.Properties.Resources.resources
@@ -143,4 +144,3 @@ C:\Github\CodeManagement\obj\Debug\CodeManagement.csproj.CoreCompileInputs.cache
 C:\Github\CodeManagement\obj\Debug\CodeMana.4CC72C10.Up2Date
 C:\Github\CodeManagement\obj\Debug\CodeManagement.exe
 C:\Github\CodeManagement\obj\Debug\CodeManagement.pdb
-C:\Github\CodeManagement\obj\Debug\CodeManagement.ColorSetting.resources

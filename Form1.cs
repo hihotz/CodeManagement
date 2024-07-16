@@ -507,7 +507,7 @@ namespace CodeManagement
 
                 if (subPath == null)
                 {
-                    MessageBox.Show("삭제할 파일이 없습니다.");
+                    MessageBox.Show("경로가 없습니다.");
                     return;
                 }
 
